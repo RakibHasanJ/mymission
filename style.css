@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+p {
+    font-weight: 400;
+}
+
+.mission-top{
+    display: flex;
+}
+.left-side{
+    width: 50%;
+    padding: 10px;
+}
+.left-side p {
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.mission-title h1 {
+    font-size: 45px;
+    padding-left: 10px;
+}
+.mission-leftbar{
+    border-left: 5px solid #DFA928;
+}
+.title-color {
+    color: #BE6F2D;
+}
+.button {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #DFA928;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+.right-side {
+    width: 50%;
+    text-align: end;
+    padding: 10px;
+}
+.right-side img{
+    width: 50%;
+}
+
+.vission h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.vision-wrappar {
+    display: flex;
+    justify-content: space-around;
+}
+.vission-box {
+    width: 30%;
+    border-radius: 10px;
+}
+#vision-color-1 {
+    background-color: chocolate;
+}
+#vision-color-2 {
+    background-color: blanchedalmond;
+}
+#vision-color-3 {
+    background-color: cadetblue;
+}
+.vission img{
+    width: 140px;
+}
+.vission-content {
+    padding: 20px;
+}
+
+
+
+
+.devolop-wraper{
+    display: flex;
+}
+.devolop-wraper .left-side{
+    width: 30%;
+    padding-right: 30px;
+}
+.devolop-wraper .right-side{
+    width: 70%;
+    text-align: left !important;
+    padding-left: 0 20px;
+}
+.devolop-wraper img {
+    width: 100%;
+}
+.devolop-wraper h1{
+    padding: 0;
+}
+.right-side p {
+    padding-bottom: 10px;
+}
+
+
+
+.global-wraper{
+    display: flex;
+}
+.global-wraper .left-side{
+    width: 40%;
+    padding-right: 40px;
+}
+.global-wraper .right-side{
+    width: 60%;
+    text-align: left !important;
+    padding-left: 0 20px;
+}
+.global-wraper img {
+    width: 100%;
+}
+.global-wraper h1{
+    padding: 0;
+}
+.right-side p {
+    padding-bottom: 10px;
+}
+.contact-wrapar{
+    display: flex;
+}
+.contact h1{
+    text-align: center;
+}
+.contact-image {
+    width: 50%;
+    overflow: hidden;
+    padding-right: 20px;
+    border-radius: 100px;
+}
+.contact .formBox h2{
+    font-weight: 400;
+}
+.contact .formBox{
+    width: 50%;
+    float: right;
+    padding-left: 30px;
+}
+.contact .formBox form{
+    margin-top: 20px;
+}
+.contact .formBox form .fields {
+    display: flex;
+    margin-bottom: 25px;
+}
+.contact .formBox form .fields .name{
+    margin-right: 10px;
+}
+.contact .formBox form .fields .email{
+    margin-left: 10px;
+}
+.contact .formBox form textarea{
+    height: 80px;
+    resize: none;
+    margin-bottom: 30px;
+}
+.contact .formBox form .fields .field,
+.contact .formBox form .field{
+    width: 100%;
+    margin-bottom: 18px;
+}
+.contact .formBox form .field input,textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #DFA928;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 0px;
+    padding-left: 7px;
+    font-size: 17px;
+}
+.contact .formBox form .button{
+    width: 170px;
+    height: 47px;
+}
+
+#form-button{
+   padding: 14px 22px;
+}
+footer {
+    background-color: #DFA928;
+    margin-top: -54px;
+    border-top: 8px solid #BE6F2D;
+}
+.footer-title{
+    padding: 20px 0;
+}
+.footer-title h1 {
+    font-size: 30px;
+    padding-left: 10px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
